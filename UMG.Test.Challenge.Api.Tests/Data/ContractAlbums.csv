@@ -1,0 +1,13 @@
+ArtistId,Name,,,AlbumId,ArtistId,Title,,PartnerId,Name
+1,Tiny Tempah,,,1,1,Don't make me angry,,1,iTunes
+2,Monkey Claw,,,2,1,Why it is hard to express,,2,YouTube
+3,Rolling Stones,,,3,2,Please don't let me go,,,
+4,Ed Sheran,,,4,2,Baby once more time,,,
+,,,,5,3,I told you so,,,
+,,,,,,,,,
+,,,,,,,,,
+,,ContractId,ArtistId,PartnerId,StartDate,EndDate,ContractType,,
+,,1,1,1,01/02/2012,30/01/2021,DownLoad,,
+,,2,1,2,01/03/2012,,Streaming,,
+,,3,2,1,30/05/2013,,DownLoad,,
+,,4,2,2,27/08/2014,,Streaming,,

@@ -121,7 +121,8 @@ namespace Movie.Api
                 options.AddDefaultPolicy(builder =>
                 {
                     builder.WithOrigins("http://localhost:4200",
-                                        "http://localhost:8080/"
+                                        "http://localhost:8080/",
+                                        "https://moviesstore.z13.web.core.windows.net/"
                                         );
                 });
             });

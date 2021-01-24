@@ -162,6 +162,8 @@ namespace Movie.Api.Tests
             contractAlbums = _contractService.GetAlbums(partnerName, startDate, endDate);
 
             Assert.NotNull(Artists);
+
+
         }
     }
 }

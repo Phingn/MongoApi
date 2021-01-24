@@ -8,7 +8,7 @@ using MongoDB.Bson.Serialization.Attributes;
 namespace Movie.Api.Models.Mongo
 {
     public class Album
-    {   
+    {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
@@ -24,5 +24,8 @@ namespace Movie.Api.Models.Mongo
 
         [BsonElement("artist")]
         public string Artist { get; set; }
+
+        [BsonElement("produceDate")]
+        public DateTime? ProduceDate { get; set; }
     }
 }

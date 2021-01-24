@@ -19,4 +19,8 @@
     <ProjectReference Include="..\UMG.Test.Challenge.Api\Movie.Api.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Helper\" />
+  </ItemGroup>
+
 </Project>
